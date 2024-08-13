@@ -34,3 +34,12 @@ function puedeDevolver(int $numero3) : ?int {
 
     return null;
 }
+
+// Parametros nombrados
+
+function restar(int $numero1 = 10, int $numero2 = 5): int {
+    return $numero1 - $numero2;
+}
+
+$resultado = restar(numero2: 50, numero1: 150);
+echo $resultado;
