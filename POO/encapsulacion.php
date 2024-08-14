@@ -3,7 +3,7 @@
 class Producto {
     // Public - Se puede acceder y modificar desde cualquier lugar
     // Protected - Se puede acceder / modificar unicamente en la clase
-    // Private - Solo miembros de la misma clase pueden acceder a el
+    // Private - Solo miembros de la misma clase pueden acceder a el (se comporta muy similar en clases simples, las diferencias se ven mas en la herencia)
 
     public function __construct(protected string $nombre, public int $precio, public bool $disponible)
     {
