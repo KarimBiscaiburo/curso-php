@@ -1,0 +1,5 @@
+# Que es Composer para php?
+
+* Es un administrador de dependencias. Como NPM lo es para Node.js
+
+* Permite descargar dependencias que ya esten creadas para agilizar nuestro desarrollo.
